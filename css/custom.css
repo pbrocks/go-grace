@@ -1,0 +1,217 @@
+/*--------------------------------------------------------------
+This is your custom stylesheet.
+
+Add your own styles here to make theme updates easier.
+To override any styles from other stylesheets, simply copy them into here and edit away.
+
+Make sure to respect the media queries! Otherwise you may
+accidentally add desktop styles to the mobile layout.
+
+You're the boss, so have fun editing!
+
+--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Global Styles
+2.0 - Responsive media queries (mobile styles)
+2.1 - MAXIMUM width of 480 pixels (phones and smaller)
+2.2 - MINIMUM width of 481 pixels (phones and larger)
+2.3 - MINIMUM width of 721 pixels (tablets and larger)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+1.0 - Global Styles
+--------------------------------------------------------------*/
+
+.sl-icon {
+font-size: 36px;
+height: 50px;
+line-height: 50px;
+width: 50px;
+}
+
+.grace-count {
+position: relative;
+bottom: 2.4rem;
+left: 1.5rem;
+}
+/*================================
+  Header Area
+  =================================*/
+.main-navigation li a {
+	padding: 1rem;
+}
+
+.site-title img {
+	max-height: 45px;
+}
+
+.header-button {
+	height: 3rem;
+	line-height: 3rem;
+	width: 4rem;
+}
+
+.site-header {
+	background-color: #fff;
+	height: 3rem;
+}
+
+.header-account-login .avatar {
+	max-width: 40px;
+}
+
+.medium-editor-toolbar li .medium-editor-action-underline {
+	text-decoration: none;
+}
+
+#subnav,
+#item-desc {
+	display: none;
+}
+
+/*================================
+  Body Area
+  =================================*/
+u {
+	text-decoration: none;
+	color: #a84348;
+}
+
+.archive .entry-header {
+	padding: 2rem 0 0;
+}
+
+#main {
+	padding: 0 2rem;
+}
+
+.article-outher {
+	position: relative;
+	margin-bottom: 2rem;
+	border: 1px solid rgba( 0, 0, 0, 0.1 );
+	padding: 1rem;
+	background-color: #fff;
+}
+
+.blog:not(.bp-user) .hentry {
+	padding-bottom: 1rem;
+}
+
+.social-stuff {
+	padding: 1rem 0;
+}
+
+.social-stuff a {
+	padding: 1rem;
+}
+
+.entry-post-thumbnail {
+	height: 12rem;
+}
+
+.single-post .header-area {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.single-post .entry-content {
+	margin-bottom: 10px;
+}
+
+.single-post .entry-header.has-image h1 {
+	font-size: 2rem;
+	padding: 0 5rem;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.single-post .entry-post-thumbnail {
+	height: 35rem;
+}
+
+.single-post .entry-post-thumbnail img {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.post-author-info .authors-avatar {
+	width: 105px;
+}
+
+.post-author-info .authors-avatar img {
+	width: 95px;
+	height: 95px;
+}
+.post-count {
+	border: 1px solid rgba( 0, 0, 0, 0.1 );
+	border-radius: 2rem;
+	color: #333;
+	display: inline-block;
+	font-size: 1rem;
+	line-height: 1rem;
+	margin-right: 1rem;
+	text-align: center;
+	padding: 1rem 2rem;
+	position: relative;
+	vertical-align: top;
+}
+
+/*================================
+  Footer Area
+  =================================*/
+footer > div > div.entry-share.col {
+	width: 100%;
+}
+
+footer > div > div > div.entry-tags.col,
+footer > div > div > div.entry-share.col {
+	width: 100%;
+	padding: .5rem 1rem 0;
+}
+footer > div > div.entry-share.col > ul,
+.helper-links {
+	float: right;
+}
+
+
+
+/*--------------------------------------------------------------
+2.0 - Responsive media queries (mobile styles)
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+2.1 - MAXIMUM width of 480 pixels (phones and smaller)
+--------------------------------------------------------------*/
+@media screen and (max-width: 480px) {
+
+.right-btn {
+	display: none;
+} 
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.1 - MINIMUM width of 481 pixels (phones and larger)
+--------------------------------------------------------------*/
+@media screen and (min-width: 481px)  {
+
+
+}/* don't delete this closing bracket */
+
+
+
+
+
+/*--------------------------------------------------------------
+2.4 - MINIMUM width of 721 pixels (tablets and larger)
+--------------------------------------------------------------*/
+@media screen and (min-width: 721px)  {
+
+
+
+}/* don't delete this closing bracket */
